@@ -1,0 +1,58 @@
+/* 全局样式 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Microsoft Yahei",sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    line-height: 1.8;
+}
+
+header{
+    margin-bottom:20px;
+    text-align: center;
+}
+
+main{
+    margin-bottom:30px;
+}
+
+footer{
+    margin-top:40px;
+    text-align:center;
+    color:#666;
+    font-size:14px;
+}
+
+table{
+    width:100%;
+    margin:15px 0;
+    border-collapse: collapse;
+}
+
+h2,h3{
+    margin:16px 0 8px;
+}
+
+ul,ol,dl{
+    margin:10px 0 10px 30px;
+}
+
+p{
+    margin:8px 0;
+}
+
+button{
+    padding:6px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+input,select,textarea{
+    padding:4px;
+}

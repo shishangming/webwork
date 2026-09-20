@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>用户登录</h1>
+    </header>
+    <main>
+        <form id="loginForm">
+            <p>
+                <label>用户名：</label>
+                <input type="text" name="username" required>
+            </p>
+            <p>
+                <label>密码：</label>
+                <input type="password" name="pwd" required>
+            </p>
+            <p>
+                <button type="submit">登录</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>©2026 用户注册系统 版权所有</p>
+    </footer>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+        loginForm.addEventListener('submit',function(e){
+            e.preventDefault();
+            //登录成功跳转成功界面
+            location.href="success.html";
+        })
+    </script>
+</body>
+</html>
